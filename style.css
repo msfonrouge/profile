@@ -1,0 +1,104 @@
+body {
+  background-color: #f6f7eb;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+  color: #5c415d;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  color: #393e41;
+  padding: 7px 0 30px;
+}
+
+a {
+  color: #e94f37;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px 20px 50px;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline > li {
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fa-brands {
+  font-size: 40px;
+}
+
+.fa-github {
+  font-size: 37px;
+}
+
+.rounded-image {
+  border-radius: 50%;
+}
+
+.button {
+  border: 1px solid #e94f37;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: 200px;
+  font-size: 14px;
+}
+
+.button:hover {
+    background-color: #393E41;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
